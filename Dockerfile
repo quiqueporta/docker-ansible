@@ -3,6 +3,8 @@ FROM alpine:3.4
 RUN apk update && apk upgrade && apk add \
     curl \
     openssh-client \
+    openssh \
+    sshpass \
     python \
     py-boto \
     py-dateutil \
